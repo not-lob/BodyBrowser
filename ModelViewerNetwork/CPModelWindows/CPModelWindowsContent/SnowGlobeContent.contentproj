@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{2665FB29-2F49-4C3F-AC8B-1A402078042F}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>CPModelWindowsContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Ship\Ship.fbx">
+      <Name>Ship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\Lander.x">
+      <Name>Lander</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\MARIO__s.x">
+      <Name>Mario</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\brain.x">
+      <Name>brain</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.x">
+      <Name>FallingWater</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Flower\Flower.x">
+      <Name>Flower</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place.fbx">
+      <Name>General_Motors_Place</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2.fbx">
+      <Name>eiffel_tower2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\kit_car.fbx">
+      <Name>kit_car</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame.fbx">
+      <Name>OlympicFlame</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <None Include="Models\Ship\ShipDiffuse.tga">
+      <Name>ShipDiffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </None>
+    <Compile Include="Models\Lander\Woman\Citizen Extras_Female 03.x">
+      <Name>Citizen Extras_Female 03</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Lander\Glass-Sky.jpg">
+      <Name>Glass-Sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\metgold.bmp">
+      <Name>metgold.bmp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\metgold.jpg">
+      <Name>metgold.jpg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\metsilver.bmp">
+      <Name>metsilver.bmp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\metsilver.jpg">
+      <Name>metsilver.jpg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Penguins.jpg">
+      <Name>Penguins</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\falling\FallingWater.xConcrete_Brushed.jpg">
+      <Name>FallingWater.xConcrete_Brushed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Aerial.jpg">
+      <Name>FallingWater.xFW_Aerial</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Door2.jpg">
+      <Name>FallingWater.xFW_Door2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Door3.jpg">
+      <Name>FallingWater.xFW_Door3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Door4.jpg">
+      <Name>FallingWater.xFW_Door4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Door5.jpg">
+      <Name>FallingWater.xFW_Door5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Falls.jpg">
+      <Name>FallingWater.xFW_Falls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Flag.jpg">
+      <Name>FallingWater.xFW_Flag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Statue1.png">
+      <Name>FallingWater.xFW_Statue1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Statue2.png">
+      <Name>FallingWater.xFW_Statue2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Stone4.jpg">
+      <Name>FallingWater.xFW_Stone4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Stone_3.jpg">
+      <Name>FallingWater.xFW_Stone_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Stone_Top.jpg">
+      <Name>FallingWater.xFW_Stone_Top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Wall3.jpg">
+      <Name>FallingWater.xFW_Wall3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Wall4.jpg">
+      <Name>FallingWater.xFW_Wall4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Wall5.jpg">
+      <Name>FallingWater.xFW_Wall5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Wall6.jpg">
+      <Name>FallingWater.xFW_Wall6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window1.jpg">
+      <Name>FallingWater.xFW_Window1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window10.jpg">
+      <Name>FallingWater.xFW_Window10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window11.jpg">
+      <Name>FallingWater.xFW_Window11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window3.jpg">
+      <Name>FallingWater.xFW_Window3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window5.jpg">
+      <Name>FallingWater.xFW_Window5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window6.jpg">
+      <Name>FallingWater.xFW_Window6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window7.jpg">
+      <Name>FallingWater.xFW_Window7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window8.jpg">
+      <Name>FallingWater.xFW_Window8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xFW_Window9.jpg">
+      <Name>FallingWater.xFW_Window9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xGroundcover_Gravel_Fine.jpg">
+      <Name>FallingWater.xGroundcover_Gravel_Fine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xWater_Stream.jpg">
+      <Name>FallingWater.xWater_Stream</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\falling\FallingWater.xWater_Stream_Shallow.jpg">
+      <Name>FallingWater.xWater_Stream_Shallow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Lander\Woman\FACE.JPG">
+      <Name>FACE</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\Woman\FEMALE.JPG">
+      <Name>FEMALE</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\Lander\Woman\HAIR.JPG">
+      <Name>HAIR</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place.jpg">
+      <Name>General_motors_Place</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_1.jpg">
+      <Name>General_motors_Place_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_10.jpg">
+      <Name>General_motors_Place_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_11.jpg">
+      <Name>General_motors_Place_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_12.jpg">
+      <Name>General_motors_Place_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_14_01.jpg">
+      <Name>General_motors_Place_14_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_14_02.jpg">
+      <Name>General_motors_Place_14_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_14_03.jpg">
+      <Name>General_motors_Place_14_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_14_04.jpg">
+      <Name>General_motors_Place_14_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_14_05.jpg">
+      <Name>General_motors_Place_14_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_15.jpg">
+      <Name>General_motors_Place_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_16.jpg">
+      <Name>General_motors_Place_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_17.jpg">
+      <Name>General_motors_Place_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_18.jpg">
+      <Name>General_motors_Place_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_19.jpg">
+      <Name>General_motors_Place_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_1_1.png">
+      <Name>General_motors_Place_1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_1_1_1.png">
+      <Name>General_motors_Place_1_1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_2.jpg">
+      <Name>General_motors_Place_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_20.jpg">
+      <Name>General_motors_Place_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_21.jpg">
+      <Name>General_motors_Place_21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_22.jpg">
+      <Name>General_motors_Place_22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_01.jpg">
+      <Name>General_motors_Place_23_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_02.jpg">
+      <Name>General_motors_Place_23_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_03.jpg">
+      <Name>General_motors_Place_23_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_04.jpg">
+      <Name>General_motors_Place_23_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_05.jpg">
+      <Name>General_motors_Place_23_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_06.jpg">
+      <Name>General_motors_Place_23_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_23_07.jpg">
+      <Name>General_motors_Place_23_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_24.jpg">
+      <Name>General_motors_Place_24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_25.jpg">
+      <Name>General_motors_Place_25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_26.jpg">
+      <Name>General_motors_Place_26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_27.jpg">
+      <Name>General_motors_Place_27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_28.jpg">
+      <Name>General_motors_Place_28</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_28_1.jpg">
+      <Name>General_motors_Place_28_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_29.jpg">
+      <Name>General_motors_Place_29</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_2_1.png">
+      <Name>General_motors_Place_2_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3.jpg">
+      <Name>General_motors_Place_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_30.jpg">
+      <Name>General_motors_Place_30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_31.jpg">
+      <Name>General_motors_Place_31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_32.jpg">
+      <Name>General_motors_Place_32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_34_1.jpg">
+      <Name>General_motors_Place_34_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_34_2.jpg">
+      <Name>General_motors_Place_34_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_35_01.jpg">
+      <Name>General_motors_Place_35_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_35_02.jpg">
+      <Name>General_motors_Place_35_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_36_1.jpg">
+      <Name>General_motors_Place_36_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_36_2.jpg">
+      <Name>General_motors_Place_36_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_36_3.jpg">
+      <Name>General_motors_Place_36_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_37.jpg">
+      <Name>General_motors_Place_37</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_38.jpg">
+      <Name>General_motors_Place_38</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_39_1.jpg">
+      <Name>General_motors_Place_39_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_39_2.jpg">
+      <Name>General_motors_Place_39_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_39_3.jpg">
+      <Name>General_motors_Place_39_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1.png">
+      <Name>General_motors_Place_3_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_1.png">
+      <Name>General_motors_Place_3_1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_2.png">
+      <Name>General_motors_Place_3_1_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_3.png">
+      <Name>General_motors_Place_3_1_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_4.png">
+      <Name>General_motors_Place_3_1_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_5.png">
+      <Name>General_motors_Place_3_1_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_6.png">
+      <Name>General_motors_Place_3_1_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_7.png">
+      <Name>General_motors_Place_3_1_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_8.png">
+      <Name>General_motors_Place_3_1_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_3_1_9.png">
+      <Name>General_motors_Place_3_1_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_4.jpg">
+      <Name>General_motors_Place_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_40.jpg">
+      <Name>General_motors_Place_40</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_41.jpg">
+      <Name>General_motors_Place_41</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_42.jpg">
+      <Name>General_motors_Place_42</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_43.jpg">
+      <Name>General_motors_Place_43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_43_1.jpg">
+      <Name>General_motors_Place_43_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_43_1_1.jpg">
+      <Name>General_motors_Place_43_1_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_01.jpg">
+      <Name>General_motors_Place_44_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_02.jpg">
+      <Name>General_motors_Place_44_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_03.jpg">
+      <Name>General_motors_Place_44_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_04.jpg">
+      <Name>General_motors_Place_44_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_05.jpg">
+      <Name>General_motors_Place_44_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_06.jpg">
+      <Name>General_motors_Place_44_06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_44_07.jpg">
+      <Name>General_motors_Place_44_07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_45.jpg">
+      <Name>General_motors_Place_45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_46.jpg">
+      <Name>General_motors_Place_46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_47.jpg">
+      <Name>General_motors_Place_47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_48.jpg">
+      <Name>General_motors_Place_48</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_49.jpg">
+      <Name>General_motors_Place_49</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_4_1.png">
+      <Name>General_motors_Place_4_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_5.jpg">
+      <Name>General_motors_Place_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_50.jpg">
+      <Name>General_motors_Place_50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_51.jpg">
+      <Name>General_motors_Place_51</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_5_1.png">
+      <Name>General_motors_Place_5_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6.jpg">
+      <Name>General_motors_Place_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_01.jpg">
+      <Name>General_motors_Place_6_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_02.jpg">
+      <Name>General_motors_Place_6_02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_03.jpg">
+      <Name>General_motors_Place_6_03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_03_1.jpg">
+      <Name>General_motors_Place_6_03_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_04.jpg">
+      <Name>General_motors_Place_6_04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_6_05.jpg">
+      <Name>General_motors_Place_6_05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_7.jpg">
+      <Name>General_motors_Place_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_8_1.png">
+      <Name>General_motors_Place_8_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_9_1.jpg">
+      <Name>General_motors_Place_9_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_9_2.jpg">
+      <Name>General_motors_Place_9_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_9_3.jpg">
+      <Name>General_motors_Place_9_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_9_4.jpg">
+      <Name>General_motors_Place_9_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\General_Motors_Place\General_motors_Place_9_5.jpg">
+      <Name>General_motors_Place_9_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\eiffel_tower2\arch.png">
+      <Name>arch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\basestone.jpg">
+      <Name>basestone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\entrance.jpg">
+      <Name>entrance</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame.png">
+      <Name>frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame1.png">
+      <Name>frame1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2.png">
+      <Name>frame2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2_1.png">
+      <Name>frame2_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2_2.png">
+      <Name>frame2_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2_3.png">
+      <Name>frame2_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2_4.png">
+      <Name>frame2_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame2_5.png">
+      <Name>frame2_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\frame3.png">
+      <Name>frame3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\internal.png">
+      <Name>internal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\middle.png">
+      <Name>middle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_1.png">
+      <Name>M_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_2.png">
+      <Name>M_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_3.png">
+      <Name>M_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4.png">
+      <Name>M_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_1.png">
+      <Name>M_4_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_2.png">
+      <Name>M_4_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_3.png">
+      <Name>M_4_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_4.png">
+      <Name>M_4_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_5.png">
+      <Name>M_4_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_6.png">
+      <Name>M_4_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_7.png">
+      <Name>M_4_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_8.png">
+      <Name>M_4_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_4_9.png">
+      <Name>M_4_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\M_6.png">
+      <Name>M_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\profile.jpg">
+      <Name>profile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\top.jpg">
+      <Name>top</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\top_middle.jpg">
+      <Name>top_middle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\window.jpg">
+      <Name>window</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\_Charcoal_.jpg">
+      <Name>_Charcoal_</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\eiffel_tower2\_Gray6_.jpg">
+      <Name>_Gray6_</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\kit_car\_Metal_Aluminum_Anodized_1.jpg">
+      <Name>_Metal_Aluminum_Anodized_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\kit_car\_Metal_Corrogated_Shiny_2.jpg">
+      <Name>_Metal_Corrogated_Shiny_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\OlympicFlame\Material1.jpg">
+      <Name>Material1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material2.jpg">
+      <Name>Material2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material3.jpg">
+      <Name>Material3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material4.jpg">
+      <Name>Material4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material5.jpg">
+      <Name>Material5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material6.jpg">
+      <Name>Material6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Models\OlympicFlame\Material7.jpg">
+      <Name>Material7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
