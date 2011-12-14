@@ -86,6 +86,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
+    <Compile Include="Anatomy\Full_NoReproductive.FBX">
+      <Name>Full_NoReproductive</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
     <None Include="Models\Ship\ShipDiffuse.tga">
       <Name>ShipDiffuse</Name>
       <Importer>TextureImporter</Importer>
@@ -1014,6 +1019,231 @@
     </Compile>
     <Compile Include="Models\OlympicFlame\Material7.jpg">
       <Name>Material7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Anatomy\Layers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anatomy\Maps\BodyNoGenitals_diffuse.jpg">
+      <Name>BodyNoGenitals_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\BodyNoGenitals_normal.jpg">
+      <Name>BodyNoGenitals_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\BodyNoGenitals_specular.jpg">
+      <Name>BodyNoGenitals_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Body_diffuse.jpg">
+      <Name>Body_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Body_normal.jpg">
+      <Name>Body_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Body_specular.jpg">
+      <Name>Body_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Breasts_bump.jpg">
+      <Name>Breasts_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Breasts_diffuse.jpg">
+      <Name>Breasts_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\DigestiveSystem_bump.jpg">
+      <Name>DigestiveSystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\DigestiveSystem_diffuse.jpg">
+      <Name>DigestiveSystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\FemaleReproductiveSystem_bump.jpg">
+      <Name>FemaleReproductiveSystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\FemaleReproductiveSystem_diffuse.jpg">
+      <Name>FemaleReproductiveSystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_body_diffuse.jpg">
+      <Name>Female_body_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_body_specular.jpg">
+      <Name>Female_body_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_eye_bump.jpg">
+      <Name>Female_eye_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_eye_diffuse.jpg">
+      <Name>Female_eye_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_hair_bump.jpg">
+      <Name>Female_hair_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_hair_diffuse.jpg">
+      <Name>Female_hair_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Female_hair_opacity.jpg">
+      <Name>Female_hair_opacity</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Head_diffuse.jpg">
+      <Name>Head_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Head_normal.jpg">
+      <Name>Head_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Head_specular.jpg">
+      <Name>Head_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Heart2_bump.jpg">
+      <Name>Heart2_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Heart2_diffuse.jpg">
+      <Name>Heart2_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Heart_bump.jpg">
+      <Name>Heart_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Heart_diffuse.jpg">
+      <Name>Heart_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Heart_specular.jpg">
+      <Name>Heart_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\LymphaticSystem_bump.jpg">
+      <Name>LymphaticSystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\LymphaticSystem_diffuse.jpg">
+      <Name>LymphaticSystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\MuscularSystem_bump.jpg">
+      <Name>MuscularSystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\MuscularSystem_diffuse.jpg">
+      <Name>MuscularSystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\ReproductiveSystem_bump.jpg">
+      <Name>ReproductiveSystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\ReproductiveSystem_diffuse.jpg">
+      <Name>ReproductiveSystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\RespiratorySystem_bump.jpg">
+      <Name>RespiratorySystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\RespiratorySystem_diffuse.jpg">
+      <Name>RespiratorySystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\RespiratorySystem_specular.jpg">
+      <Name>RespiratorySystem_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skeleton_diffuse.jpg">
+      <Name>Skeleton_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skeleton_normal.jpg">
+      <Name>Skeleton_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skeleton_specular.jpg">
+      <Name>Skeleton_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skull_diffuse.jpg">
+      <Name>Skull_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skull_normal.jpg">
+      <Name>Skull_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\Skull_specular.jpg">
+      <Name>Skull_specular</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\UrinarySystem_bump.jpg">
+      <Name>UrinarySystem_bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Anatomy\Maps\UrinarySystem_diffuse.jpg">
+      <Name>UrinarySystem_diffuse</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
