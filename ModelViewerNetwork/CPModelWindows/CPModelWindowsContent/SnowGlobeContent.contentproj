@@ -130,13 +130,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Penguins.jpg">
-      <Name>Penguins</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Models\falling\FallingWater.xConcrete_Brushed.jpg">
       <Name>FallingWater.xConcrete_Brushed</Name>
       <Importer>TextureImporter</Importer>
@@ -1244,6 +1237,13 @@
     </Compile>
     <Compile Include="Anatomy\Maps\UrinarySystem_diffuse.jpg">
       <Name>UrinarySystem_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="grid.jpg">
+      <Name>Grid</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

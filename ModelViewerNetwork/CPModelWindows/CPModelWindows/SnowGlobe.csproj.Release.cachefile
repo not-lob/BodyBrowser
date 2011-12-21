@@ -15,7 +15,6 @@ Content\Models\Lander\metgold.bmp.xnb
 Content\Models\Lander\metgold.jpg.xnb
 Content\Models\Lander\metsilver.bmp.xnb
 Content\Models\Lander\metsilver.jpg.xnb
-Content\Models\Penguins.xnb
 Content\Models\falling\FallingWater.xConcrete_Brushed.xnb
 Content\Models\falling\FallingWater.xFW_Aerial.xnb
 Content\Models\falling\FallingWater.xFW_Door2.xnb
@@ -426,5 +425,6 @@ Content\Models\falling\FallingWater.xFW_Window7_0.xnb
 Content\Models\Lander\Woman\FEMALE_0.xnb
 Content\Models\Lander\Woman\FACE_0.xnb
 Content\Models\Lander\Woman\HAIR_0.xnb
+Content\grid.xnb
 Data\SamplesConfig.xml
 GameThumbnail.png
