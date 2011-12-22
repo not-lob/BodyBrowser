@@ -91,6 +91,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
+    <Compile Include="Fonts\LabelFont.spritefont">
+      <Name>LabelFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
     <None Include="Models\Ship\ShipDiffuse.tga">
       <Name>ShipDiffuse</Name>
       <Importer>TextureImporter</Importer>
@@ -1237,13 +1242,6 @@
     </Compile>
     <Compile Include="Anatomy\Maps\UrinarySystem_diffuse.jpg">
       <Name>UrinarySystem_diffuse</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="grid.jpg">
-      <Name>Grid</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
