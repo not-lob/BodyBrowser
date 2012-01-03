@@ -234,6 +234,7 @@ Content\Anatomy\Maps\Skull_normal.xnb
 Content\Anatomy\Maps\Skull_specular.xnb
 Content\Anatomy\Maps\UrinarySystem_bump.xnb
 Content\Anatomy\Maps\UrinarySystem_diffuse.xnb
+Content\Grid.xnb
 Content\Models\Ship\ShipDiffuse_0.xnb
 Content\General_motors_Place_31_0.xnb
 Content\General_motors_Place_27_0.xnb
@@ -425,6 +426,5 @@ Content\Models\falling\FallingWater.xFW_Window7_0.xnb
 Content\Models\Lander\Woman\FEMALE_0.xnb
 Content\Models\Lander\Woman\FACE_0.xnb
 Content\Models\Lander\Woman\HAIR_0.xnb
-Content\grid.xnb
 Data\SamplesConfig.xml
 GameThumbnail.png
