@@ -50,10 +50,10 @@
   <ItemGroup>
     <Reference Include="Bespoke.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=843a094264521388, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\OscFramework_1.7\Executables\Framework\x64\Bespoke.Common.dll</HintPath>
+      <HintPath>..\..\..\..\Bespoke.Common.dll</HintPath>
     </Reference>
     <Reference Include="Bespoke.Common.Osc">
-      <HintPath>..\..\..\OscFramework_1.7\Executables\Framework\x64\Bespoke.Common.Osc.dll</HintPath>
+      <HintPath>..\..\..\..\Bespoke.Common.Osc.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Research.Kinect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
