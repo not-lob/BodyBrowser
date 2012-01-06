@@ -90,6 +90,7 @@
       <Name>Full_NoReproductive</Name>
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <None Include="Models\Ship\ShipDiffuse.tga">
       <Name>ShipDiffuse</Name>
