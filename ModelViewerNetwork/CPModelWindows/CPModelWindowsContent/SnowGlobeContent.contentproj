@@ -1263,7 +1263,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cursorAlpha2.png">
+    <Compile Include="cursorAlpha.png">
       <Name>cursorAlpha</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
