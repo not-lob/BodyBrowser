@@ -50,15 +50,13 @@
   <ItemGroup>
     <Reference Include="Bespoke.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=843a094264521388, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Bespoke.Common.dll</HintPath>
+      <HintPath>bin\x86\Release\Bespoke.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Bespoke.Common.Osc">
-      <HintPath>..\..\..\..\Bespoke.Common.Osc.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Research.Kinect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Bespoke.Common.Osc, Version=4.3.0.0, Culture=neutral, PublicKeyToken=843a094264521388, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Research KinectSDK\Microsoft.Research.Kinect.dll</HintPath>
+      <HintPath>bin\x86\Release\Bespoke.Common.Osc.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Kinect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Speech, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.dll</HintPath>
